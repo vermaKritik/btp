@@ -1,0 +1,39 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: calc(100vh - 110px);
+}
+.profile__main {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  width: 50%;
+  padding: 30px;
+  background: #ffff;
+}
+.profile__image {
+  display: flex;
+  justify-content: center;
+}
+.profile__image > img {
+  /* width:; */
+  height: 250px;
+  border-radius: 500px;
+}
+.profile__hash {
+  text-align: center;
+  color: rgba(128, 128, 128, 0.7);
+  font-weight: 500;
+  margin-top: 10px;
+}
+.profile__content {
+  margin-top: 50px;
+}
+.profile__contentSec {
+  width: 80%;
+
+  margin: 30px auto 0px auto;
+  display: flex;
+  justify-content: space-between;
+}

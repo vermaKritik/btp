@@ -1,0 +1,11 @@
+.nav{
+    /* border: 3px solid black; */
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__avatar{
+    display: flex;
+    gap: 0.6rem;
+}

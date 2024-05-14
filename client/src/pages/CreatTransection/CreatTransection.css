@@ -1,0 +1,50 @@
+.creatTransection {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+}
+.creatTransection__main {
+    border-radius: 10px;
+  width: 60%;
+  padding: 30px;
+  background: white;
+  margin-bottom: 60px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+.creatTransection__stepData{
+    
+}
+.creatTransection__step{
+    height: 100%;
+
+}
+.creatTransection__stepBtn{
+    justify-self: flex-end;
+}
+.sucess{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.sucess_container{
+  flex-direction: column;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 100%;
+}
+.panding{
+
+}
+.panding_container{
+  margin-top: 200px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}

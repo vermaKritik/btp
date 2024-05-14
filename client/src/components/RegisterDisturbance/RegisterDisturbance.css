@@ -1,0 +1,34 @@
+.registerDisturbance {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  background: #fff;
+  text-align: center;
+  height: 120px;
+}
+.registerDisturbance__content,
+.registerDisturbance__btn {
+  display: flex;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+}
+.registerDisturbance__content {
+  flex-direction: column;
+  background: #edf0f3;
+}
+.registerDisturbance__content > p:last-child {
+  font-size: 1.4rem;
+}
+.registerDisturbance__btn {
+  gap: 5px;
+  color: #1976d2;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+.registerDisturbance__btn:hover {
+  /* background: #e8eaef; */
+  background: #e7f0f8;
+}

@@ -1,0 +1,13 @@
+.medicineDataForm__addItemBoxRow{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.medicineDataForm__addItemBoxRow>div{
+    
+    width: 50%;
+}
+.addItemBox__hash{
+    color: gray;
+}

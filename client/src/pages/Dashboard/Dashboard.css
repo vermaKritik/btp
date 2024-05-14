@@ -1,0 +1,97 @@
+.dashboard {
+  min-height: calc(100vh - 110px);
+  padding: 20px;
+}
+.dashboard__headingWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dashboard__heading {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: #8b96aa;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.dashboard__header {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashboard__secOne {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+.dashboard__secOneVertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 20px; */
+  width: 40%;
+}
+.dashboard__secOneInvoice {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding: 20px;
+  background: #fff;
+}
+.dashboard__secOneInvoiceContent {
+  width: 50%;
+  margin-left: 15px;
+  
+}
+.dashboard__secOneInvoiceContent>p {
+    font-weight: 500;
+    color: #6b7079;
+    font-size: 1.5rem;
+}
+.dashboard__secOneInvoiceContentBox{
+    margin-left: 5px;
+    margin-top: 20px;
+
+}
+.dashboard__secOneInvoiceContentSubBox{
+    margin: 15px 0;
+}
+.dashboard__secOneInvoiceContentSubBox>p:first-child{
+    font-weight: 700;
+    color: #6b7079;
+    font-size: 1.3rem;
+
+}
+.dashboard__secOneInvoiceContentSubBox>p:last-child{
+    font-weight: 700;
+    color: #6b7079;
+    font-size: 2.2rem;
+    margin-left: 5px;
+    /* text-align: center; */
+
+}
+.dashboard__secOneInvoiceGraph {
+  width: 50%;
+}
+
+.dashboard__secOneGraph {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  background: #fff;
+  width: 60%;
+}
+.dashboard__secTow {
+    margin-top: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  /* padding: 20px; */
+  background: #fff;
+}

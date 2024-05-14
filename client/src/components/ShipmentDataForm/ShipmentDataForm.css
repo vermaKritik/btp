@@ -1,0 +1,23 @@
+.shipmentDataForm{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.shipmentDataForm_id{
+    text-transform: capitalize;
+    font-size: 0.98rem;
+    color: rgba(42, 42, 42, 0.784);
+}
+.ShipmentDataForm__destination{
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.shipmentDataForm__row{
+    display: flex;
+    margin-top: 5px;
+}
+.shipmentDataForm__row>div{
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+.productDetails__historyLine {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.productDetails__historyLine > span {
+  height: 30px;
+  width: 30px;
+  background: rgba(128, 128, 128, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.productDetails__historyLine:last-child {
+  margin-bottom: 0px;
+}
+.productDetails__historyLineDate {
+  color: rgba(0, 0, 0, 0.805);
+  font-weight: 700px;
+  font-size: 1.1rem;
+  margin-bottom: 3px;
+}
+.productDetails__historyContainer {
+  overflow-y: scroll;
+  height: 150px;
+}

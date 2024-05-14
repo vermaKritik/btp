@@ -1,0 +1,47 @@
+.medicineDataForm{
+    margin-top: 25px;
+    padding: 15px;
+    /* background-color: whitesmoke; */
+}
+
+.medicineDataForm__sec>h3{
+text-transform: capitalize;
+margin-bottom: 10px;
+}
+/* .medicineDataForm__sec1{
+    padding: 5px;
+    background: rgba(245, 245, 245, 0.703);
+} */
+.medicineDataForm__secrow>div{
+    width: 100%;
+    margin-left: 60px;
+}
+.medicineDataForm__secrow{
+    display: flex;
+    gap: 40px;
+    /* justify-content: space-between; */
+    width: 300px;
+    /* background: pink; */
+
+    /* gap: 20px; */
+}
+.medicineDataForm__secrow>p:first-child{
+    text-transform: capitalize;
+}
+.medicineDataForm__sec2{
+    margin-top: 30px;
+}
+.medicineDataForm__addItemContainer{
+
+}
+.medicineDataForm__addItemBox{
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+
+.medicineDataForm__button{
+    margin-top: 20px;
+}
